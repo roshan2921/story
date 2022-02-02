@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shell';
+  buttonName:string='Hii';
+  second:string='second';
+  labels=[
+    'first',
+    'second',
+    'third'
+  ]
+  // properties={
+  //   labelss:[
+  //     'first',
+  //   'second',
+  //   'third'
+  //   ],
+  //   colors:[
+  //     'red',
+  //     'green'
+  //   ]
+  // }
 }

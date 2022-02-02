@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@story/stories": ["libs/stories/src/index.ts"],
+      "@story/ui": ["libs/ui/src/index.ts"],
+      "@story/uiadd": ["libs/uiadd/src/index.ts"],
+      "@story/utilpopup": ["libs/utilpopup/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

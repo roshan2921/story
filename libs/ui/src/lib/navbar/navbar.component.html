@@ -1,0 +1,50 @@
+<div class="flex-container" [ngStyle]="{'background-color':navColor}">
+        <div>
+                <a>Active</a>
+        </div>
+        <div>
+                <a>Link</a>
+        </div>
+        <div>
+                <a>Link</a>
+        </div>
+        <div>
+                <a>Disabled</a>
+        </div>
+</div>
+<br>
+<div class="button">
+<button [disabled]="disabled" [ngStyle]="{'background-color':backgroundColor}">{{label}}</button>
+</div>
+<br>
+<div>
+    <table class="table table-striped" [ngStyle]="{'background-color':tableColor}">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
